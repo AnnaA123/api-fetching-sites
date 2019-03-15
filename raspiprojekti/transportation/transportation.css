@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    width: 1000px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+.head {
+    width: 25%;
+    height: 100%;
+}
+
+h1 {
+    height: 100%;
+}
+
+#timeTable {
+    width: 1000px;
+    display: flex;
+}
+
+.container {
+    width: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+ul {
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+/* this one stays last */
+@media screen and (min-width: 900px) {
+    .container {
+        width: 800px;
+        margin: auto;
+    }
+}

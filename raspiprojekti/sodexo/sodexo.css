@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    position: center;
+    width: 1900px;
+    height: 1000px;
+    display: flex;
+}
+
+#images {
+    height: 1000px;
+}
+
+#logo {
+    height: 250px;
+    width: 500px;
+}
+
+#foodImg {
+    height: 500px;
+    width: 500px;
+}
+
+#header {
+    display: flex;
+    width: 1000px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    text-align: center;
+}
+
+.head {
+    width: 500px;
+}
+
+#foodTable {
+    width: 1400px;
+    display: flex;
+    background-color: aliceblue;
+    position: relative;
+    height: 100px;
+}
+
+.container {
+    width: 1900px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+
+ul {
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+li {
+    list-style: none;
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+/* this one stays last */
+@media screen and (min-width: 900px) {
+    .container {
+        width: 1900px;
+        height: 1000px;
+        margin: auto;
+    }
+}
+
